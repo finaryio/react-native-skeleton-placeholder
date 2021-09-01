@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./lib && mkdir ./lib && tsc",
-    "prepack": "npm build"
+    "prepack": "yarn build"
   },
   "keywords": [
     "skeleton",
@@ -14,11 +14,6 @@
     "loading",
     "placeholder"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chramos/react-native-skeleton-placeholder"
-  },
-  "author": "Henrique Ramos <chenrique.ramos12@gmail.com> (https://github.com/chramos)",
   "license": "ISC",
   "devDependencies": {
     "@react-native-community/masked-view": "^0.1.10",
